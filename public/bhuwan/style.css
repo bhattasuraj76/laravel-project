@@ -1,0 +1,128 @@
+*{
+    padding:0px;
+    margin:0px;
+
+}
+
+#bannar{
+    background:url("img/Untitled.png");
+    height:450px;
+    background-position: center;
+    background-size: cover;
+}
+#bannar .navbar-default{
+    background-color:transparent;
+    border:0px;
+    padding-top:30px;
+}
+.navbar-default .navbar-brand{
+    color:white;
+    font-weight: bold;
+    font-size: 35px;
+}
+.navbar-default .navbar-brand:hover{
+    color:orange;
+}
+.navbar-default .navbar-nav>li>a{
+    color:white;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color:yellowgreen;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a{
+    color:white;
+    background-color:black;
+}
+
+.bg1 input[type=email] {
+    background-color: whitesmoke;
+    color: black;
+}
+input[type=text]:focus {
+    background-color: lightblue;
+}
+.bg1 .subscribe{
+    border:1px solid white;
+    width:90px;
+    margin:auto;
+    border-radius:5px;
+    background-color:pink;
+    border-color:pink;
+    color:white;
+    margin-top:50px;
+    
+}
+.bg1 .subscribe:hover{
+    color:black;
+    background-color:white;
+}
+
+.bannar .subscribe{
+    color:red;
+}
+body{
+    min-height: 800px;
+}
+.bg1{
+    color:white;
+    padding-top: 30px;
+}
+.bg1 h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.bg1 p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    opacity: 0.5;
+}
+.box{
+   
+    border-radius:5px;
+   
+    background-color: white;
+    margin-top:-80px;
+    padding-left:25px;
+    letter-spacing: 1px;
+}
+#about .box h4 a{
+    text-decoration: none;
+}
+#about .box h4{
+    font-size: 12px;
+    color:black;
+    padding-top:25px;
+}
+#about .box h3{
+    font-weight: bold;
+    font-size: 19px;
+    color:black;
+    margin-top:-7px;
+}
+#footer{
+  height: 100px;
+    background-color:black;
+    margin-top:150px;
+}
+#footer .bg2{
+    color:white;
+    padding-top:30px;
+}
+#footer .square{
+float:right;
+    margin-left:80px;
+}
+#footer .square a{
+margin-left:10px;}
+.bg2 .fab{
+    color:white;
+    font-size: 25px;
+}
+.bg2 .fab:hover{
+    color:orchid;
+}
+.color{
+    background-color:red;
+}
+
+
